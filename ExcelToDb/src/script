@@ -1,0 +1,7 @@
+create table EMPLOYEE (
+id int primary key,
+Emp_No varchar(30) not null,
+Full_Name varchar(30) not null,
+Hire_Date date
+);
+insert into EMPLOYEE values(3,"7003","Chandru",str_to_date('07-25-2016','%m-%d-%Y'));

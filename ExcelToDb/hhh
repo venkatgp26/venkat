@@ -1,0 +1,4 @@
+insert into EMPLOYEE values(3,"7003","Chandru",str_to_date('07-25-2016','%m-%d-%Y'));
+
+
+select * from employee;
